@@ -1,0 +1,274 @@
+@media screen and (max-width:1111px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section1 {
+        width: 97%;
+    }
+
+    .section4 {
+        width: 97%;
+    }
+
+    .section5 {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .restangle {
+        display: none;
+    }
+
+    .restangle2 {
+        display: none;
+    }
+
+    .section1 {
+        width: 97%;
+        flex-direction: column;
+        margin-bottom: 7.5rem;
+    }
+
+    .section1 .section_text {
+        text-align: center;
+    }
+
+    .section2 {
+        grid-template-columns: auto;
+        margin-bottom: 7.5rem;
+    }
+
+    .section3 .cards {
+        flex-direction: column;
+    }
+
+    .section3 .cards .card {
+        text-align: left;
+        display: flex;
+        gap: 3rem;
+    }
+
+    .section3 .cards .card h3 {
+        margin-bottom: 1rem;
+    }
+
+    .section2 .card {
+        height: 12.5rem;
+    }
+
+    .section4 {
+        flex-direction: column;
+    }
+
+    .section4 .texts {
+        text-align: center;
+    }
+
+    footer .container .footer_info .footer_contacts ul {
+        width: 14rem;
+    }
+
+    .section5 {
+        margin-bottom: 7.5rem;
+    }
+
+    .section6 {
+        grid-template-columns: auto;
+        margin-bottom: 7.5rem;
+    }
+
+    .section6 .item {
+        height: 20rem;
+        flex-direction: row;
+    }
+
+    .section6 .item img {
+        width: 50%;
+    }
+
+    .section6 .item .item_title {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section7 {
+        grid-template-columns: 1fr;
+        margin-bottom: 7.5rem;
+    }
+
+    .section7 .item {
+        height: 12.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .restangle {
+        display: none;
+    }
+
+    .restangle2 {
+        display: none;
+    }
+
+    .navbar .links ul {
+        gap: 1rem;
+    }
+
+    .section1 .oval {
+        top: 12rem;
+        right: -10rem;
+    }
+
+    .section2 .card .text h1 {
+        font-size: 1.75rem;
+        margin-bottom: .8rem;
+    }
+
+    .section1 {
+        margin-bottom: 7.5rem;
+        width: 100%;
+        border-radius: 0;
+        padding-top: 5rem;
+    }
+
+    .section1 .section_text {
+        width: 28rem;
+    }
+
+    .section1 .section_text h1 {
+        font-size: 2rem;
+    }
+
+    .section3 .cards {
+        margin-bottom: 7.5rem;
+    }
+
+    .section3 .cards .card {
+        text-align: center;
+        display: block;
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .section3 .cards .card p {
+        width: 20rem;
+    }
+
+    .section4 .texts {
+        width: 17.5rem;
+    }
+
+    .section4 .texts h1 {
+        font-size: 2rem;
+    }
+
+    footer .container .footer_bar {
+        flex-direction: column;
+        border-bottom: none;
+        padding-bottom: 2rem;
+    }
+
+    footer .container .footer_bar .logo {
+        width: 100%;
+        border-bottom: 1px solid var(--darkgrey);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    footer .container .footer_bar .links ul {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    footer .container .footer_info {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    footer .container .footer_info .footer_contacts {
+        flex-direction: column;
+    }
+
+    footer .container .footer_info .footer_contacts ul {
+        text-align: center;
+    }
+
+    .section6 {
+        grid-template-columns: auto;
+        place-items: center;
+    }
+
+    .section6 .item {
+        width: 20.5rem;
+        height: 30rem;
+        flex-direction: column;
+    }
+
+    .section6 .item img {
+        width: 100%;
+    }
+
+    .section6 .item .item_title {
+        width: 100%;
+    }
+
+    .section7 .item1 .item_title h1,
+    .section7 .item2 .item_title h1 {
+        font-size: 1.7rem;
+        margin-bottom: .8rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .navbar .links ul {
+        display: none;
+    }
+
+    .restangle {
+        display: none;
+    }
+
+    .restangle2 {
+        display: none;
+    }
+
+    .navbar .links img {
+        display: block;
+        cursor: pointer;
+    }
+
+    .section1 .oval {
+        top: 7.7rem;
+        right: -15rem;
+    }
+
+    .section1 .section_text {
+        width: 20rem;
+    }
+
+    .navbar {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section5 {
+        width: 100%;
+        border-radius: 0;
+    }
+}
